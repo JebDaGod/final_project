@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charity Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="big-text">HelpHub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Welcome to HelpHub!</h2>
+            <p>Join us in making a difference in the lives of those who need it most.</p>
+            <p>HelpHub is a nonprofit platform connecting donors, volunteers, and charities to create meaningful change. Whether you're looking to donate, volunteer, or learn about trusted charities — you're in the right place!</p>
+            <p>Explore more by visiting our <a href="#about">About</a> page to learn our mission, check out the <a href="#charities">Charities</a> we support, or head to <a href="#donate">Donate</a> to start making an impact today.</p>
+        </section>
+
+        <section id="charities-list">
+            <h2>Charities Near You</h2>
+            <div>
+                <article>
+                    <h3>Hope House Foundation</h3>
+                    <p>Providing safe housing and support services for families in need.</p>
+                    <a href="charity_profile_HHF.html">View Charity Profile</a>
+                    <!-- Volunteer Now Button -->
+                    <button id="volunteer-now-HHF">Volunteer Now</button>
+                </article>
+                <article>
+                    <h3>GreenEarth Initiative</h3>
+                    <p>Dedicated to environmental cleanup and sustainable education programs.</p>
+                    <a href="charity_profile_GEI.html">View Charity Profile</a>
+                    <!-- Volunteer Now Button -->
+                    <button id="volunteer-now-GEI">Volunteer Now</button>
+                </article>
+                <article>
+                    <h3>Bright Futures Fund</h3>
+                    <p>Offering scholarships and mentoring for underprivileged youth.</p>
+                    <a href="charity_profile_BFF.html">View Charity Profile</a>
+                    <!-- Volunteer Now Button -->
+                    <button id="volunteer-now-BFF">Volunteer Now</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Hidden Form Container (Initially hidden, will display when button is clicked) -->
+        <div id="form-container" style="display: none;">
+            <h3>Volunteer Form</h3>
+            <form id="volunteer-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HelpHub. Making a difference, together.</p>
+    </footer>
+
+    <!-- Link to your JavaScript file -->
+    <script src="charity_profile.js"></script>
+</body>
+</html>

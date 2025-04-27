@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - HelpHub</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <header>
+        <h1 class="big-text">HelpHub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="donate">
+            <h2>Make a Difference: Donate to HelpHub</h2>
+            <p>Your donation helps connect people in need with the resources, support, and services they deserve. Every contribution, big or small, makes a positive impact on the communities we serve.</p>
+
+            <h3>How Your Donation Helps</h3>
+            <p>Your generous donation helps fund essential services for families, provides scholarships for students, supports environmental initiatives, and much more. Together, we can create a world of hope and change!</p>
+
+            <h3>Choose a Cause to Support:</h3>
+            <form action="index.html" method="POST">
+                <label for="charity">Select Charity:</label>
+                <select id="charity" name="charity" required>
+                    <option value="BFF">Bright Futures Fund</option>
+                    <option value="GEI">GreenEarth Initiative</option>
+                    <option value="HHF">Hope House Foundation</option>
+                </select>
+
+                <h3>Donation Amount:</h3>
+                <label for="amount">Amount ($):</label>
+                <input type="number" id="amount" name="amount" min="5" step="5" required>
+
+                <h3>Payment Information</h3>
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required>
+
+                <label for="expiry-date">Expiration Date:</label>
+                <input type="text" id="expiry-date" name="expiry-date" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+
+                <button type="submit">Donate Now</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h3>Questions? Get in Touch!</h3>
+            <p>If you have any questions about donations, feel free to reach out to us at <a href="mailto:donations@helphub.org">donations@helphub.org</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HelpHub. Together, we create change.</p>
+    </footer>
+
+</body>
+</html>

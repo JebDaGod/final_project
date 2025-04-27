@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope House Foundation - Charity Profile</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Hope House Foundation</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="charity-profile" data-charity="HHF">
+            <h2>About Hope House Foundation</h2>
+            <p>The Hope House Foundation provides safe housing and support services to families in need, empowering them to rebuild their lives and thrive in their communities.</p>
+
+            <h3>Our Mission</h3>
+            <p>Our mission is to provide stable housing, access to essential services, and emotional support for families facing homelessness. We believe that everyone deserves a safe place to call home.</p>
+
+            <h3>How You Can Help</h3>
+            <ul>
+                <li>Donate to support housing projects and family support services.</li>
+                <li>Volunteer to provide assistance with housing and services to families in need.</li>
+                <li>Help spread awareness about homelessness and support local initiatives.</li>
+            </ul>
+        <!-- Volunteer Now Button -->
+            <button id="volunteer-now-HHF">Volunteer Now</button>
+
+            <!-- Hidden Form Container (Initially hidden, will display when button is clicked) -->
+            <div id="form-container" style="display: none;">
+                <h3>Volunteer Form</h3>
+                <form id="volunteer-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HelpHub. Making a difference, together.</p>
+    </footer>
+
+    <!-- Link to your JavaScript file -->
+    <script src="charity_profile.js"></script>
+
+</body>
+</html>
+

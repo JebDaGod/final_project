@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenEarth Initiative - Charity Profile</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Green Earth Initiative</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="charity-profile" data-charity="GEI">
+            <h2>About GreenEarth Initiative</h2>
+            <p>The GreenEarth Initiative is dedicated to environmental cleanup and sustainable education programs to protect the planet and future generations.</p>
+
+            <h3>Our Mission</h3>
+            <p>We aim to reduce the impact of pollution and promote sustainable practices through local and global environmental projects, as well as raising awareness about the importance of environmental preservation.</p>
+
+            <!-- Volunteer Now Button -->
+            <button id="volunteer-now-GEI">Volunteer Now</button>
+
+            <!-- Hidden Form Container (Initially hidden, will display when button is clicked) -->
+            <div id="form-container" style="display: none;">
+                <h3>Volunteer Form</h3>
+                <form id="volunteer-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HelpHub. Making a difference, together.</p>
+    </footer>
+
+    <!-- Link to your JavaScript file -->
+    <script src="charity_profile.js"></script>
+
+</body>
+</html>
